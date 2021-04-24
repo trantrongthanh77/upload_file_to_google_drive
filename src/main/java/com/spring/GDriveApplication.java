@@ -1,7 +1,5 @@
 package com.spring;
 
-import com.spring.service.GoogleDriveService;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.config.YamlPropertiesFactoryBean;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
@@ -10,8 +8,6 @@ import org.springframework.context.annotation.Primary;
 import org.springframework.context.support.PropertySourcesPlaceholderConfigurer;
 import org.springframework.core.io.ClassPathResource;
 
-import java.io.File;
-import java.io.IOException;
 
 @SpringBootApplication
 public class GDriveApplication {

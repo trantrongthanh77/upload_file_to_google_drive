@@ -12,25 +12,24 @@
     <title>Document</title>
 </head>
 <style>
-    article,
-    aside,
-    figure,
-    footer,
-    header,
-    hgroup,
-    menu,
-    nav,
-    section {
+ 
+    .container {
+        margin: 0 20px;
+    }
+    img {
         display: block;
+        margin-top: 50px;
     }
 </style>
 </head>
 
 <body>
-    <input type='file' onchange="readURL(this);" />
-    <img id="blah" src="#" alt="your image" />
-    <br></br>
-    <script src="script.js"></script>
+    <div class="container">
+        <input type='file' onchange="readURL(this);" />
+        <img id="blah" src="#" alt="your image" />
+        <script src="script.js"></script>
+
+    </div>
 </body>
 
 </html>
